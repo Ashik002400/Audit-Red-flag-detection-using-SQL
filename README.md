@@ -18,9 +18,6 @@ To identify potentially suspicious transactions—such as duplicate invoices, we
 - High-value payments above threshold
 - Multiple payments to same vendor in short time
 
-## 📊 Sample Output
-Include screenshots or a table showing flagged transactions.
-
 ## 🔍 Audit Relevance
 This project reflects procedures aligned with:
 - **ISA 240**: The Auditor’s Responsibilities Relating to Fraud
