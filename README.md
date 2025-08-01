@@ -97,7 +97,7 @@ This project demonstrates how simple SQL techniques can surface major red flags 
 ## 👤 Author
 **ASHIK THOMAS**  
 
-ACCA aspirant,
+ACCA Part Qualified,
 
 [LinkedIn Profile](www.linkedin.com/in/ashik-thomas-695b94354) 
 
