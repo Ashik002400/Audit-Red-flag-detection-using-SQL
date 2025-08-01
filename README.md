@@ -92,7 +92,7 @@ This scoring helps prioritize audits where manual review is costly or time-consu
 - Integrate with audit workflow tools
 
 ## ✅ Conclusion
-This project demonstrates how simple SQL techniques can surface major red flags in vendor payment systems, without requiring advanced machine learning. The approach is scalable and explainable—ideal for auditors, compliance teams, and internal finance investigations
+This project demonstrates how simple SQL techniques can surface major red flags in vendor payment systems, without requiring advanced machine learning. The approach is scalable and explainable—ideal for auditors, compliance teams, and internal finance investigations.
 
 ## 👤 Author
 **ASHIK THOMAS**  
