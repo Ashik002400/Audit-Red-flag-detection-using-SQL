@@ -34,6 +34,63 @@ Each flagged transaction would be subject to further investigation. For example:
 - [Link to dataset on Kaggle](https://www.kaggle.com/code/ashik24/red-flag-detection-in-vendor-payments-using-sql)
 - Synthetic data used for demonstration purposes.
 
+## 📷 Screenshots of the SQL Output
+- High Value Transactions:
+- ![High value Transactions](images/High_Value_Transactions.png)
+- Flagged Fraud Transactions:
+- ![Flagged Fraud Transactions](images/Flagged_Fraud_Transactions.png)
+- Confirmed Fraud Transactions:
+- ![Confirmed Fraud Transactions](images/Confirmed_Fraud_Transactions.png)
+- Large Cash-Out Transactions:
+- ![Large Cash-Out Transactions](images/Large_Cash-Out_Transactions.png)
+- Balance Mismatch Red Flags:
+- ![Balance Mismatch Red Flags](images/Balance_Mismatch_Red_Flags.png)
+- Risk score:
+- ![Risk score](images/Risk_score.png)
+- Time based fraud pattern:
+- ![Time based fraud pattern](images/Time_based_fraud_pattern.png)
+  
+## 📊 Summary of Key Findings¶
+- Metric	Result
+  
+💼 Total Transactions :	63,000+
+
+⚠️ Confirmed Frauds (isFraud = 1) :	8
+
+🚩 Flagged Frauds (isFlaggedFraud = 1) :	5
+
+💸 Large Transactions > $200K :	40+
+
+💰 Large CASH_OUT Events :	Detected
+
+❗ Balance Mismatches :	Multiple anomalies
+
+🔀 Multi-Destination Customers :	None
+
+🧮 Risk Score Range :	60–100
+
+📅 Fraud Spikes by Time Step :	Steps 212, 523, 387, 249, 425
+
+
+🧠 Analytical Methods¶
+-DuckDB SQL for efficient queries on Pandas dataframes.
+
+-Use of JOIN, GROUP BY, HAVING, CASE, and balance calculations.
+
+-Rule-based risk scoring system.
+
+-Time-step grouping to identify patterns over transaction steps.
+
+
+🧮 Risk Scoring Logic¶
+Risk Score	Criteria :-
+-100	Confirmed fraud or balance mismatch fraud
+
+-60	High-value CASH_OUT, suspicious balance anomalies, flagged frauds
+
+This scoring helps prioritize audits where manual review is costly or time-consuming.
+
+
 ## 🚀 Future Enhancements
 - Automate detection using Python or Power BI
 - Add visual dashboards for audit reporting
